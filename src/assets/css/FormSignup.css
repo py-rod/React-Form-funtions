@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    padding: 10px;
+}
+
+.section-1{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.form-signup{
+    width: 700px;
+    padding: 40px ;
+    margin: 0 auto;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+}
+
+
+.content-items div input{
+    border: 2px solid rgb(218, 218, 218);
+    color: black;
+    transition: .255s;
+}
+
+.content-items div input:hover{
+    box-shadow: 0 0 8px rgb(48, 0, 190);
+}
+
+
+.content-items div input:focus{
+    border: 1px solid rgb(54, 1, 214);
+    box-shadow: 0 0 10px rgba(54, 1, 214, 0.863);
+}
+
+
+
+.check-box-terms{
+    box-shadow: none;
+    border: 1px solid rgb(153, 153, 153);
+}
+
+.check-box-terms:focus{
+    border: 1px solid rgb(153, 153, 153);
+    box-shadow: none;
+}
+
+
+
+.check-box-terms:checked{
+    background-color: rgba(54, 1, 214, 0.863);
+    border: 1px solid rgba(54, 1, 214, 0.863);
+    box-shadow: 0 0 10px rgba(54, 1, 214, 0.863);
+}
+
+
+.button-signup{
+    display: block;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 9px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(54, 1, 214);
+    color: white;
+    transition: .3s;
+}
+
+.button-signup:hover{
+    background-color: rgb(71, 20, 224);
+}

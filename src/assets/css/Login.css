@@ -1,0 +1,68 @@
+.content-login{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.form-login{
+    width: 700px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+
+.form-login input{
+    border: 2px solid rgb(218, 218, 218);
+    color: black;
+    transition: .255s;
+}
+
+.form-login input:hover{
+    box-shadow: 0 0 8px rgb(48, 0, 190);
+}
+
+
+.form-login input:focus{
+    border: 1px solid rgb(54, 1, 214);
+    box-shadow: 0 0 10px rgba(54, 1, 214, 0.863);
+}
+
+
+.forgot-password{
+    text-decoration: none;
+    font-size: 1.05rem;
+    color:rgb(54, 1, 214) ;
+}
+
+.button-login{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 0;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(54, 1, 214);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: .3s;
+}
+
+.button-login:hover{
+    background-color: rgb(71, 20, 224);
+}
+
+.content-reditect{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.redirect-signup {
+    text-decoration: none;
+    color: rgb(54, 1, 214) ;
+    cursor: pointer;
+}
